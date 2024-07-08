@@ -47,7 +47,7 @@ const server = app.listen(5000, console.log(`Server started at ${PORT}`));
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://668bff56a79ed34b60389898--delicate-blancmange-29bc16.netlify.app/",                 //connecting frontend
+    origin: "https://delicate-blancmange-29bc16.netlify.app",                 //connecting frontend
   },
 });
 
